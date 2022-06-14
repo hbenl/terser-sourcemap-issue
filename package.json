@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "terser index.js -o out.js --compress --source-map \"url='out.js.map',includeSources\""
+  },
+  "devDependencies": {
+    "terser": "^5.14.1"
+  }
+}
